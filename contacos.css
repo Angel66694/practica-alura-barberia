@@ -1,0 +1,182 @@
+
+header{
+   padding: 20px 0;
+   background: #bbbbbb;
+   padding: 20px 0;
+}
+
+.tituloPrincipal{
+    padding-left: 30px;
+    text-align: 15PX;
+    font-size: 2rem;
+   
+}
+
+.caja{
+    width: 940px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+nav{
+    
+    position:relative;
+    top: -110px;
+    right: -50%;
+   
+}
+
+
+ 
+nav li{
+    display: inline;
+    margin: 0 0 0 30px;
+   
+
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav :hover{
+    color: darkgreen;
+    font-size: 1.5rem;
+    
+}
+
+nav :active{
+    color: red;
+    text-decoration:underline darkgreen;
+}
+
+main{
+    width: 940px;
+    margin: 100%;
+    margin: 0 auto;
+    margin-right: 14%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+.copyright{
+    color: #bbbbbb;
+    font-size: 13px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+form{
+    margin: 40px 0;
+    
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox, .Enviar{
+    margin: 20px 0;
+}
+
+.Enviar{
+    width: 40%;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: azure;
+    background: orangered;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+}
+
+.Enviar:hover{
+    background: red;
+    color: black;
+    transition: 1s;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.Enviar:active{
+    background: rgba(65, 9, 9, 0.753);
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+table{
+    background-color: white;
+    margin: 40px 40px;
+    
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+
+.horarios{
+    border: 1px solid #030303;
+    padding: 8px;
+}
+
+
+footer{
+    text-align: center;
+    background: url(img/imagenes/bg.jpg);
+    padding: 40px;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    main{
+        width: auto;
+        
+    }
+    
+        nav{
+            display: inline;
+            top: 15%;
+            width: auto;
+        }
+      
+}
