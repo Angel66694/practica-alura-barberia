@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+body{
+    margin: 0;
+    height: 0;
+}
+/*---------------------------------------
+Menu superior
+--------------------------------------*/
+
+.caja{
+    background-image: url("img/img-productos/baner-superior.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+.logo-inicio{
+    margin-left: 40%;
+    max-width: 100%;
+    height: auto;
+    filter: drop-shadow(1px 3px 10px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(1px 3px 10px rgba(7, 230, 93, 0.911));
+}
+
+.nav{
+    display: flex;
+    
+       
+}
+
+nav ul{
+    display: inline;
+    list-style: none;
+    position: absolute;
+    top: 12%;
+    right: 5%;
+    padding: 2px;
+    margin: 2rem;
+    border: 2px solid rgb(247, 247, 247);
+    background: black;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 5px 10px 20px rgba(7, 230, 93, 0.911);
+
+}
+
+nav li{
+    display: inline;
+    margin: 15px;    
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: rgb(25, 15, 156);
+    
+}
+
+nav ul:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background: white;
+}
+/*---------------------------------------------
+Contenido principal
+---------------------------------------------*/
+
+.contenido{
+    background-image: url("img/img-productos/bricks-3592117_1280.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    z-index: inherit;
+    box-shadow: inset  -10px -10px 15px rgba(7, 230, 93, 0.911);
+   display: flex;
+}
+
+.caja-contenido{
+    position: absolute;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.productos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+    
+}
+
+.ofertas{
+    border: 2px solid white;
+    margin: 2%;
+    width: 35%;
+    height: 55vh;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.ofertas h2{
+    border-radius: 35px;
+    color: white;
+    margin: 2px;
+    margin-top: 15%;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.productos-descripcion{
+    text-align: center;
+    margin-bottom: 3px;
+    color: rgb(12, 12, 12);
+    font-size: 19px;
+    background: white;
+    margin: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid green;
+    box-shadow:  5px 5px 10px rgba(7, 230, 93, 0.911);
+}
+
+.productos-precio{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    margin: 17px;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+
+}
+.img-productos{
+    display: block;
+    margin: auto;
+    
+
+}
+
+.ofertas:hover{
+    border: 3px solid green;
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    box-shadow:  5px 5px 15px rgba(7, 230, 93, 0.911);
+    
+}
+
+.ofertas:active{
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    
+}
+
+
+/*-----------------------------------------------
+pie de pagina
+----------------------------------------------*/ 
+
+footer{
+    position: absolute;
+    width: 100%;
+    height:  20%;
+    text-align: center;
+    background: url(img/img-productos/black-brick-wall-texture-background-of-a-textured-in_9933873.jpg);
+    background-size: 50% 50%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.fondo-footer{
+
+    width: 150px;
+    height: 150px;
+}
+
+.copyright{
+    color: #bbbbbb;
+    font-size: 13px;
+    margin: 10px;
+
+}
+
+/*-------------------------------------------------
+Configuración responsiva
+------------------------------------------------*/
+
+@media screen and (max-width:1250px){
+    body{
+        width: auto;
+        height: 0;
+      }
+        .caja{
+            display: flex;
+            width: 100%;
+            height: 38vh;
+            
+        }
+
+    .contenido{
+            width: 100%;
+            height: 210vh;
+           }
+
+    .productos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+       }
+    
+       .ofertas{
+           width: 680px; 
+           height: auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-flow: column;
+           flex-wrap: wrap;
+       }
+    
+       .img-productos{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    h2{
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:720px){
+  body{
+    width: auto;
+    height: 240vh;
+  }
+    .caja{
+        display: flex;
+        width: 100%;
+        height: 38vh;
+        
+    }
+
+    .logo-inicio{
+        display: flex;
+        margin-left: 60%;
+    }
+    
+   nav ul {
+       left: 0 ;
+       right: 0;
+       top: 23%;
+       margin: 0;
+       border: none;
+       font-size: 10px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       flex-flow: column wrap;
+       background: rgba(0, 0, 0, 0.651);
+
+   }
+
+   nav a{
+    font-size: 15px;
+   }
+
+   .contenido{
+    width: 100%;
+    height: 240vh;
+   }
+
+   .productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+   }
+
+   .ofertas{
+       width: auto; 
+       height: auto;
+   }
+
+   .img-productos{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    
+
+}
+   footer{
+       padding: 20px;
+   }
+   
+  
+    nav li{
+        display: block;
+        
+    }
+}
+
+
+@media screen and (max-width:480px){
+    body{
+        width: 100%;
+      }
+
+      .caja{
+        display: flex;
+        width: 100%;
+        height: 42vh;
+        
+    }
+
+    .logo-inicio{
+        width: 125px;
+        height: 145px;
+        position: absolute;
+        right: 30%;
+    }
+      .contenido{
+        width: auto;
+        height: 295vh;
+      }
+.productos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+   }
+}
