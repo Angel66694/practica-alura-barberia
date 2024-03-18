@@ -28,5 +28,5 @@ te recomiendo explorar los cursos de Alura Latam Next Generation para obtener m�
 
 ¡Espero que disfrutes explorando mi primera página web para la Barbería Alura!
 
-## desarollado por: Miguel Angel De la mora Lopez  @Angel66694
+## desarrollado por: Miguel Angel De la mora Lopez  @Angel66694
 
